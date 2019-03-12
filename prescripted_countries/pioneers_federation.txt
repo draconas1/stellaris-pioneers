@@ -1,0 +1,63 @@
+"Federation of Humanity"
+={
+	key="Federation of Humanity"
+	ship_prefix="ISS"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Federation Human"
+		plural="Federation Humans"
+		adjective="Federation Human"
+		species_bio="Although the Federation is ostensibly governed by a centralised body, the majority of power and wealth is held by vast megacorporations. These business groups act almost entirely outside of governmental control, and hold such sway within government ranks that, to all intents and purpose, they are the governing body. Although to outsiders the Federation may appear a relaxed a liberal structure, the corporations who hold sway are often reactionary and totalitarian. However within the structures advancement is a definite opportunity, and one based on competence, rather than family. The genders are treated equally too, with no expectations of specific behaviour from either, other than total loyalty to the Federation."
+		name_list="HUMAN1"
+		trait="trait_thrifty"
+		trait="trait_adaptive"
+		trait="trait_wasteful"
+		trait="trait_quarrelsome"
+	}
+	name="Federation of Humanity"
+	adjective="Feds"
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	planet_name="Enia"
+	planet_class="pc_continental"
+	system_name="Fenhear"
+	initializer="deneb_system"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="corporate"
+			file="corporate_02.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Taslima Sarkar"
+		portrait="human_female_04"
+		texture=0
+		hair=3
+		clothes=3
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=no
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_ruthless_competition"
+		"civic_brand_loyalty"
+	}
+}

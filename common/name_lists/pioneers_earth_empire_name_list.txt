@@ -1,0 +1,197 @@
+###
+### Codes: %C% = cardinal, %O% = ordinal, %R% = Roman numeral
+###
+
+PEE = {
+	 randomized = no
+	 alias = "Earth Empire"
+
+	 ship_names = {
+
+		 generic = {
+			"Conquest" "Force" "Fearless" "Pelter" "Piercer" "Aimwell" "Asp" "Acute" "Bouncer" "Bruiser" "Contest" "Spiteful" "Adder" "Courser" "Defender" "Growler" "Haughty" "Meteor" "Pouncer" "Wrangler" "Rattler" "Archer" "Charger" "Mallard" "Bloodhound" "Basilisk" "Vixen" "Fortune" "Firm" "Attentive" "Rapid" "Protector" "Thrasher" "Confounder" "Indignant" "Inveterate" "Swinger" "Dapper" "Fancy" "Havoc" "Rebuff" "Exertion" "Martial" "Strenuous" "Linnet" "Griper" "Saint Lucia" "Swaggerer" "Seaforth" "Unique" "Nancy" "Warning" "Mandarin" "Patriot" "Rolla" "Snapper" "Mastiff" "Borer" "Boxer" "Shamrock" "Turbulent" "Intelligent" "Hearty" "Sentinel" "Watchful" "Redbreast" "Desperate" "Sharpshooter" "Fervent" "Clinker" "Flamer" "Cracker" "Mongoose" "Venom" "Blazer" "Sparkler" "Anacreon" "Furnace" "Eclipse" "Hasty" "Locust" "Jackall" "Ferreter" "Transfer" "Intrepid" "Grinder" "Weasel" "Von der Tann" "Panther" "Seta" "Unyo" "Chiyodagata" "Korietz" "Saga" "Suma" "Toba" "Tatara" "Kora" "Akshay" "Abhay" "Ajay" "Khukri" "Kulish" "Khanjar" "Vinash" "Nashak" "Vidyut"
+		 }
+
+		 corvette = {
+			 "Conquest" "Force" "Fearless" "Pelter" "Piercer" "Aimwell" "Asp" "Acute" "Bouncer" "Bruiser" "Contest" "Spiteful" "Adder" "Courser" "Defender" "Growler" "Haughty" "Meteor" "Pouncer" "Wrangler" "Rattler" "Archer" "Charger" "Mallard" "Bloodhound" "Basilisk" "Vixen" "Fortune" "Firm" "Attentive" "Rapid" "Protector" "Thrasher" "Confounder" "Indignant" "Inveterate" "Swinger" "Dapper" "Fancy" "Havoc" "Rebuff" "Exertion" "Martial" "Strenuous" "Linnet" "Griper" "Saint Lucia" "Swaggerer" "Seaforth" "Unique" "Nancy" "Warning" "Mandarin" "Patriot" "Rolla" "Snapper" "Mastiff" "Borer" "Boxer" "Shamrock" "Turbulent" "Intelligent" "Hearty" "Sentinel" "Watchful" "Redbreast" "Desperate" "Sharpshooter" "Fervent" "Clinker" "Flamer" "Cracker" "Mongoose" "Venom" "Blazer" "Sparkler" "Anacreon" "Furnace" "Eclipse" "Hasty" "Locust" "Jackall" "Ferreter" "Transfer" "Intrepid" "Grinder" "Weasel" "Von der Tann" "Panther" "Seta" "Unyo" "Chiyodagata" "Korietz" "Saga" "Suma" "Toba" "Tatara" "Kora" "Akshay" "Abhay" "Ajay" "Khukri" "Kulish" "Khanjar" "Vinash" "Nashak" "Vidyut"
+		 }
+		
+		 destroyer = {
+			 "Drake" "Merlin" "Martin" "Sweepstakes" "Phoenix" "Rose" "Sapphire" "Roebuck" "Falcon" "Mermaid" "Experiment" "Hector" "Greyhound" "Garland" "Diamond" "Pearl" "Adventure" "Lizard" "Swan" "Seahorse" "Nightingale" "Gibraltar" "Lively" "Princess Louisa" "Kinsale" "Prince Edward" "Thetis" "Assurance" "Expedition" "Crown" "Rainbow" "Wager" "Success" "Triton" "Mercury" "Siren" "Dolphin" "Unicorn" "Romulus" "Actaeon" "Ulysses" "Argo" "Serapis" "Mediator" "Gladiator" "Galatea" "Daphne" "Camilla" "Porcupine" "Crocodile" "Champion" "Myrmidon" "Valorous" "Levant" "Tamar" "Griffin" "Guadeloupe" "Boreas" "Hussar" "Surprise!" "Crescent" "Nemesis" "Lodbrok" "Norden" "Tor" "Yngve" "Skoraia" "Starkotter" "Neva" "Torneo" "Kamikaze" "Satsuki" "Karukaya" "Aoi" "Arashio" "Rana" "Shivalik" "Talwar" "Trikand"
+		 }
+		
+		 cruiser = {
+			"Amalia" "Elli" "Etna" "Vesuvius" "Quarto" "Basilicata" "Tripoli" "Arethusa" "Aquila" "Scipio" "Marco Polo" "Trieste" "Talisman" "Roland" "Jeanne d'Arc" "Sfax" "Pascal" "Algeria" "Calabria" "Saint Louis" "Vercingetorix" "Charlemagne" "Adamastor" "Vasco da Gama" "Elisabeta" "Copenhagen" "Emperor Samuel III" "Luzón" "Cuba" "Queen Regnant" "Alfonso" "Aragon" "Vizcaya" "Navarra" "Hamidiye" "Midilli" "Dalmatia" "Saint George" "Zenta" "Vladimir Monomakh" "Rurik" "Russia" "Indus" "Bayan" "Variag" "Askold" "Aurora" "Oleg" "Captain Saken" "Borodino" "Tbilisi" "Azuma" "Ioshima" "Chishima" "Hiei" "Hai Shen" "Jiyuan" "Liaoning" "Delhi" "Mysore" "Asia" "Africa" "Europa" "America"
+		 }
+		
+		 battleship = {
+			 "Prince Royal" "Victory" "Glory" "Vanguard" "Coronation" "Triumph" "Queen" "Royal Sovereign" "Union" "Ocean" "Atlas" "Impregnable" "Dreadnought" "Vengeance" "Superb" "Majestic" "Warrior" "Revenge" "Warspite" "Monarch" "Conqueror" "Thunderer"
+
+		 }
+
+		 titan = {
+			"Ark Royal" "Courageous" "Furious" "Indomitable" "Implacable" "Venerable" "Pioneer" "Leviathan" "Terrible" "Arrogant" "Invincible"
+		 }
+
+		 colossus = {
+			 "Judgement" "Devastation" "Shiva" "Samael" "Azrael"
+		 }
+		
+		 science = {
+			"Tsukushi" "Shonan" "Ta Kuan" "Sagardhwani" "Nirupak" "Sutlej" "Makar" "Darshak" "Jamuna" "Behr Paima" "Selen" "Denar" "Fantome" "Laplace" "Darwin" "Leonardo" "Rosetti" "Scott" "Rainier" "Khalije Fars" "Philia" "Mya" "Pourquoi Pas?" "Dana" "Snellius" "Trinidad" "Vittoria" "Tui" "Calanus" "Noctiluca" "Investigator" "Planet" "Gleaner" "Echo" "Pathfinder" "Sepia" "Discovery" "Observer" "Seeker" "Researcher" "Surveyor" "Crystal"
+		 }
+		
+		 colonizer = {
+			"Alexander" "Aotea" "Arahura" "Bevis" "Charlotte" "Don de Dieu" "Friendship" "Grande Hermine" "Horouta" "Godspeed" "Matahourua" "Mayflower" "Niña" "Pinta" "Santa María" "Tainui" "Tauira" "Te Arawa" "Te Hoiere" "Tokomaru"
+		 }
+		
+		 constructor = {
+			 "Asahi" "Akashi" "Taigei" "Astradharani" "Aditya" "Godetia" "Malina" "Vis" "Salina" "Boraida" "Yunbou" "Poolster" "Anvil" "Keeper" "Durance" "Rover" "Cape" "Page" "Diligence" "Keystone" "Supply" "Bridge"
+		 }
+		
+		 transport = {
+			 random_names = {
+				 "Albion" "Anzio" "Attacker" "Avenger" "Bachaquero" "Battler" "Ben Lomond" "Ben Nevis" "Bigsbury Bay" "Boxer" "Bruiser" "Bulwark" "Burghead Bay" "Cardigan Bay" "Carnarvon Bay" "Cawsand Bay" "Charger" "Chaser" "Dieppe" "Dunkirk" "Eastway" "Enard Bay" "Fearless" "Fighter" "Highway" "Hollesley Bay" "Hull" "Hunter" "Intrepid" "Largo Bay" "Largs Bay" "Lofoten" "Lyme Bay" "Messina" "Misoa" "Morecambe Bay" "Mounts Bay" "Narvik" "Northway" "Ocean" "Oceanway" "Padstow Bay" "Porlock Bay" "Puncher" "Pursuer" "Ravager" "Reggio" "Salerno" "Searcher" "Slinger" "Smiter" "St Austell Bay" "St Brides Bay" "St Nazaire" "Stalker" "Start Bay" "Striker" "Sulva" "Tasajera" "Theseus" "Thruster" "Tracker" "Tremadoc Bay" "Trounder" "Trumpeter" "Vaagso" "Veryan Bay" "Walcheren" "Whitesand Bay" "Widemouth Bay" "Wigtown Bay" "Zeebrugge"
+			 }
+			 # sequential_name = "LCVP %O%"
+		 }
+		
+		 military_station_small = {
+			 "Agrippa" "Argenta" "Arromanches" "Ascension" "Beith" "Bickleigh" "Caledonia" "Chivenor" "Clyde" "Collingwood" "Condor" "Coulport" "Crombie" "Devonport" "Drake" "Excellent" "Faslane" "Gosport" "Heron" "Juffair" "Lympstone" "Machrihanish" "Merryfield" "Nelson" "Neptune" "Northwood" "Poole" "Portsmouth" "Predannack" "Raleigh" "Saker" "Salisbury" "Seahawk" "Sembawang" "Stonehouse" "Suffield" "Sultan" "Temeraire" "Bombay Castle" "Brimstone Hill Fortress" "Cambridge Battery" "Della Grazie Battery" "Diamond Rock" "Fort Benghisa" "Fort Bingemma" "Fort Campbell" "Fort Charles" "Fort Delimara" "Fort George" "Fort James" "Fort Leonardo" "Fort Madalena" "Fort Melliena" "Fort Mosta" "Fort Pembroke" "Fort Rinella" "Fort Saint Rocco" "Fort San Lucian" "Fort St. David" "Fort St. George" "Fort Tas-Silg" "Fort Verdala" "Fort William" "Garden Battery" "Lascaris Battery" "Mare Harbour" "Mount Pleasant" "Norton Manor" "Pembroke Battery" "Saint Lucian Redoubt" "Saint Paul's Battery" "San Rocco Redoubt" "Sliema Point Battery" "Spinola Battery" "Targa Battery" "Wardija Battery" "Wolseley Battery" "Zonqor Battery"
+		 }
+
+		 ion_cannon = {
+		 	 "Agrippa" "Argenta" "Arromanches" "Ascension" "Beith" "Bickleigh" "Caledonia" "Chivenor" "Clyde" "Collingwood" "Condor" "Coulport" "Crombie" "Devonport" "Drake" "Excellent" "Faslane" "Gosport" "Heron" "Juffair" "Lympstone" "Machrihanish" "Merryfield" "Nelson" "Neptune" "Northwood" "Poole" "Portsmouth" "Predannack" "Raleigh" "Saker" "Salisbury" "Seahawk" "Sembawang" "Stonehouse" "Suffield" "Sultan" "Temeraire" "Bombay Castle" "Brimstone Hill Fortress" "Cambridge Battery" "Della Grazie Battery" "Diamond Rock" "Fort Benghisa" "Fort Bingemma" "Fort Campbell" "Fort Charles" "Fort Delimara" "Fort George" "Fort James" "Fort Leonardo" "Fort Madalena" "Fort Melliena" "Fort Mosta" "Fort Pembroke" "Fort Rinella" "Fort Saint Rocco" "Fort San Lucian" "Fort St. David" "Fort St. George" "Fort Tas-Silg" "Fort Verdala" "Fort William" "Garden Battery" "Lascaris Battery" "Mare Harbour" "Mount Pleasant" "Norton Manor" "Pembroke Battery" "Saint Lucian Redoubt" "Saint Paul's Battery" "San Rocco Redoubt" "Sliema Point Battery" "Spinola Battery" "Targa Battery" "Wardija Battery" "Wolseley Battery" "Zonqor Battery"
+		 }		
+	 }
+
+	 fleet_names = {
+		 random_names = {
+			 "Terra Fleet" "Lunar Fleet" "Mercury Fleet" "Venus Fleet" "Jupiter Fleet" "Saturn Fleet" "Uranus Fleet" "Neptune Fleet" "Pluto Fleet" "Phobos Fleet" "Deimos Fleet" "Io Fleet" "Ganymede Fleet" "Callisto Fleet" "Titan Fleet" "Titania Fleet" "Oberon Fleet" "Miranda Fleet" "Ariel Fleet" "Umbriel Fleet" "Triton Fleet" "Eris Fleet" "Haumea Fleet" "Orcus Fleet" "Quaoar Fleet" "Charon Fleet" "Nix Fleet" "Hydra Fleet" "Kerberos Fleet" "Styx Fleet" "Dysnomia Fleet" "Hiiaka Fleet" "Namaka Fleet" "Vanth Fleet" "Weywot Fleet"
+		 }
+		 sequential_name = "%O% Fleet"
+     }
+	
+	 army_names = {
+		 defense_army = {
+			sequential_name = "%O% Home Guard"		 
+		 }
+
+		 assault_army = {			
+			 sequential_name = "%O% Rifles"
+		 }
+		
+		 slave_army = {
+			 sequential_name = "%O% Conscripts"
+		 }
+		
+		 clone_army = {
+			 sequential_name = "%O% Clones"
+		 }
+		
+		 robotic_army = {
+			 sequential_name = "%O% Robotic"
+		 }
+
+		 robotic_defense_army = {
+			 sequential_name = "%O% Robotic home Guard"
+		 }
+				
+		 psionic_army = { 
+			 sequential_name = "%O% Psi Expeditary Force"
+		 }
+		
+		 xenomorph_army = {
+			 sequential_name = "%O% Monsters"
+		 }
+		
+		 gene_warrior_army = {
+			 sequential_name = "%O% Expeditary Force"
+		 }
+	 }
+
+	 ### PLANETS
+	planet_names = {
+
+		generic = {
+			names = {
+				"New Afghanistan" "New Albania" "New Algeria" "New Andorra" "New Angola" "New Antigua" "New Barbuda" "New Argentina" "New Armenia" "New Australia" "New Austria" "New Azerbaijan" "New Bahamas" "New Bahrain" "New Bangladesh" "New Barbados" "New Belarus" "New Belgium" "New Belize" "New Benin" "New Bhutan" "New Bolivia" "New Bosnia" "New Herzegovina" "New Botswana" "New Brazil" "New Brunei" "New Bulgaria" "New Burundi" "New Cabo Verde" "New Cambodia" "New Cameroon" "New Canada" "New Chad" "New Chile" "New China" "New Colombia" "New Comoros" "New Congo" "New Costa Rica" "New Croatia" "New Cuba" "New Cyprus" "New Czech" "New Korea" "New Congo" "New Denmark" "New Djibouti" "New Dominica" "New Ecuador" "New Egypt" "New El Salvador" "New Guinea" "New Eritrea" "New Estonia" "New Eswatini" "New Ethiopia" "New Fiji" "New Finland" "New France" "New Gabon" "New Gambia" "New Georgia" "New Germany" "New Ghana" "New Greece" "New Grenada" "New Guatemala" "New Guinea" "New Guinea Bissau" "New Guyana" "New Haiti" "New Honduras" "New Hungary" "New Iceland" "New India" "New Indonesia" "New Iran" "New Iraq" "New Ireland" "New Israel" "New Italy" "New Jamaica" "New Japan" "New Jordan" "New Kazakhstan" "New Kenya" "New Kiribati" "New Kuwait" "New Kyrgyzstan" "New Latvia" "New Lebanon" "New Lesotho" "New Liberia" "New Libya" "New Liechtenstein" "New Lithuania" "New Luxembourg" "New Madagascar" "New Malawi" "New Malaysia" "New Maldives" "New Mali" "New Malta" "New Mauritania" "New Mauritius" "New Mexico" "New Micronesia" "New Monaco" "New Mongolia" "New Montenegro" "New Morocco" "New Mozambique" "New Myanmar" "New Namibia" "New Nauru" "New Nepal" "New Netherlands" "New New Zealand" "New Nicaragua" "New Niger" "New Nigeria" "New Macedonia" "New Norway" "New Oman" "New Pakistan" "New Palau" "New Panama" "New Papua New Guinea" "New Paraguay" "New Peru" "New Philippines" "New Poland" "New Portugal" "New Qatar" "New Korea" "New Moldova" "New Romania" "New Russia" "New Rwanda" "New Saint Kitts" "New Nevis" "New Saint Lucia" "New Saint Vincent" "New Samoa" "New San Marino" "New Sao Tome" "New Principe" "New Saudi Arabia" "New Senegal" "New Serbia" "New Seychelles" "New Sierra Leone" "New Singapore" "New Slovakia" "New Slovenia" "New Solomon Islands" "New Somalia" "New South Africa" "New South Sudan" "New Spain" "New Sri Lanka" "New Sudan" "New Suriname" "New Sweden" "New Switzerland" "New Syrian Arab Republic" "New Tajikistan" "New Thailand" "New Timor-Leste" "New Togo" "New Tonga" "New Trinidad" "New Tobago" "New Tunisia" "New Turkey" "New Turkmenistan" "New Tuvalu" "New Uganda" "New Ukraine" "New Britain" "New England" "New Wales" "New Scotland" "New Tanzania" "New America" "New Uruguay" "New Uzbekistan" "New Vanuatu" "New Venezuela" "New Viet Nam" "New Yemen" "New Zambia" "New Zimbabwe" 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				 "Cymru" "Britannia" "Caledonia" "Hibernia" "Atlantis"
+ 			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+	}
+
+	character_names = {
+		default = {
+			full_names_male = { 
+				 "The Duke of Cornwall" "The Duke of Norfolk" "The Duke of Somerset" "The Duke of Richmond" "The Duke of Grafton" "The Duke of Beaufort" "The Duke of St Albans" "The Duke of Bedford" "The Duke of Devonshire" "The Duke of Marlborough" "The Duke of Rutland" "The Duke of Rothesay" "The Duke of Hamilton" "The Duke of Buccleuch and Queensberry" "The Marquess of Huntly" "The Marquess of Queensberry" "The Marquess of Tweeddale" "The Marquess of Lothian" "The Marquess of Lansdowne" "The Marquess Townshend" "The Marquess of Salisbury" "The Marquess of Bath" "The Marquess of Hertford" "The Marquess of Bute" "The Marquess of Waterford" "The Marquess of Downshire" "The Marquess of Donegall" "The Earl of Ilchester" "The Earl De La Warr" "The Earl of Radnor" "The Earl Spencer" "The Earl Bathurst" "The Earl of Clarendon" "The Earl of Mansfield and Mansfield" "The Earl Talbot" "The Earl of Mount Edgcumbe" "The Earl Fortescue" "The Earl of Carnarvon" "The Earl Cardogan" "The Earl of Malmesbury" "The Earl of Waterford" "The Earl of Cork" "The Earl of Westmeath" "The Earl of Meath" "The Earl of Desmond" "The Earl of Cavan" "The Earl of Drogheda" "The Earl of Granard" "The Earl of Darnley" "The Earl of Bessborough" "The Earl of Carrick" "The Earl of Shannon" "The Earl of Arran" "The Earl of Courtown" "The Earl of Mexborough" "The Earl of Winterton" "The Earl of Kingston" "The Earl of Roden" "The Earl of Lisburne" "The Earl of Clanwilliam" "The Earl of Antrim" "The Earl of Longford" "The Earl of Portarlingtong" "The Earl of Mayo" "The Earl of Annesley" "The Earl of Enniskillen" "The Earl Erne" "The Earl of Lucan" "The Earl Belmore" "The Earl Castle Stewart" "The Earl of Donoughmore"  "The Viscount Head" "The Viscount Boyd of Merton" "The Viscount Mills" "The Viscount Blakenham" "The Viscount Eccles" "The Viscount Dilhorne" "The Lord Aberconway" "The Lord Aberdare" "The Lord Abinger" "The Lord Acton" "The Lord Addington" "The Lord Aldenham and Hunsdon" "The Lord Aldington" "The Lord Altrincham" "The Lord Alvingham" "The Lord Amherst of Hackney" "The Lord Ampthill" "The Lord Amwell" "The Lord Annaly" "The Lord Ashbourne" "The Lord Ashburton" "The Lord Ashcombe" "The Lord Ashton of Hyde" "The Lord Ashtown" "The Lord Astor of Hever" "The Lord Auckland" "The Lord Avebury" "The Lord Aylmer" "The Lord Baden-Powell" "The Lord Bagot" "The Lord Baillieu" "Baron Theodore Crane" "Toran Coriolanus Temuri Widger"
+			 }
+			 full_names_female = {
+				 "The Duchess of Buccleuch and Queensberry" "The Duchess of Lennox" "The Duchess of Argyll" "The Duchess of Atholl" "The Duchess of Montrose" "The Duchess of Roxburghe" "The Duchess of Brandon" "The Duchess of Manchester" "The Duchess of Northumberland" "The Duchess of Leinster" "The Duchess of Abercorn" "The Duchess of Wellington" "The Duchess of Sutherland" "The Duchess of Westminster" "The Duchess of Gordon" "The Duchess of Argyll" "The Duchess of Fife" "The Duchess of Gloucester" "The Duchess of Kent" "The Duchess of Edinburgh" "The Duchess of York" "The Duchess of Cambridge" "The Countess of Huntingdon" "The Countess of Pembroke" "The Countess of Devon" "The Countess of Lincoln" "The Countess of Suffolk" "The Countess of Montgomery" "The Countess of Denbigh" "The Countess of Westmorland" "The Countess of Berkshire" "The Countess of Lindsey" "The Countess of Winchilsea" "The Countess of Sandwich" "The Countess of Essex" "The Countess of Carlisle" "The Countess of Shaftesbury" "The Countess of Nottingham" "The Countess of Abingdon" "The Countess of Portland" "The Countess of Scarbrough" "The Countess of Albemarle" "The Countess of Coventry" "The Countess of Jersey" "The Countess of Crawford and Balcarres" "The Countess of Errol" "The Countess of Sutherland" "The Countess of Mar" "The Countess of Rothes" "The Countess of Morton" "The Countess of Buchan" "The Countess of Eglinton" "The Countess of Caithness" "The Countess of Mar and Kellie" "The Countess of Moray" "The Countess of Home" "The Countess of Perth" "The Countess of Strathmore and Kinghorne" "The Countess of Haddington" "The Countess of Galloway" "The Countess of Lauderdale" "The Countess of Lindsay" "The Countess of Loudoun" "The Countess of Kinnoull" "The Countess of Elgin and Kincardine" "The Countess of Wemyss and March" "The Countess of Dalhousie" "The Countess of Airlie" "The Countess of Leven and Melville" "The Countess of Dysart" "The Countess of Selkirk" "The Countess of Northesk" "The Countess of Dundee" "The Countess of Newburgh" "The Countess of Annandale and Hartfell" "The Countess of Dundonald" "The Countess of Kintore" "The Countess of Dunmore" "The Countess of Orkney" "The Lady Foley" "The Lady Forester" "The Lady Forres" "The Lady Forteviot" "The Lady Freyberg" "The Lady Gainford" "The Lady Garvagh" "The Lady Garvagh" "The Lady Geddes" "The Lady Gerard" "The Lady Gifford" "The Lady Gisborough" "The Lady Glanusk" "The Lady Glenarthur" "The Lady Glenconner" "The Lady Glendevon" "The Lady Glendyne" "The Lady Glentoran" "The Lady Gorell" "The Lady Grantchester" "The Lady Grantley" "The Lady Graves" "The Lady Greenhill" "The Lady Greenway" "The Lady Grenfell and Grenfell of Kilvey" "The Lady Gretton" "The Lady Grey of Codnor" "The Lady Gridley" "The Lady Grimston of Westbury" "The Lady Grimthorpe" "The Lady Hacking" "The Lady Haden-Guest" "The Lady Hamilton of Dalzell" "The Lady Hampton" "The Lady Hankey" "The Lady Hardinge of Penshurst" "The Lady Harding of Petherton" "The Lady Harlech" "The Lady Harmsworth" "The Lady Harris" "The Lady Harvey of Tasburgh" "The Lady Hastings" "The Lady Hatherton" "The Lady Hawke" "The Lady Hayter" "The Lady Hazlerigg" "The Lady Hemingford" "The Lady Hemphill" "The Lady Henley and Northington" "The Lady Henniker and Hartismere" "The Lady Herbert" "The Lady Hesketh" "The Lady Heytesbury" "The Lady Hindlip" "The Lady Hives" "The Lady Hollenden" "The Lady HolmPatrick" "The Lady Hotham" "The Lady Hothfield" "The Lady Howard of Penrith" "The Lady Howick of Glendale" "The Lady Huntingfield" "The Lady Hylton" "The Lady Iliffe" "The Lady Inchiquin" "The Lady Inchyra" "The Lady Inglewood" "The Lady Inverforth" "The Lady Ironside" "The Lady Jeffreys" "The Lady Joicey" "The Lady Kenilworth" "The Lady Kennet" "The Lady Kensington" "The Lady Kenswood" "The Lady Kenyon" "The Lady Kershaw" "The Lady Keyes" "The Lady Kilbracken" "Lady Arkady Elizabeth Crane"
+			 }
+			
+			regnal_first_names_male = {
+				 "Alastair" "Albert" "Alexander" "Alfred" "Andrew" "Carl" "Charles" "Constantine" "David" "Donald" "Duncan" "Edgar" "Edmund" "Edward" "Francis" "George" "Harold" "Harry" "Henry" "James" "John" "Kenneth" "Louis" "Malcolm" "Oliver" "Philip" "Richard" "Robert" "William", "Theodore"
+			 }
+			 
+			 regnal_first_names_female = {
+				 "Alexandra" "Alice" "Amelia" "Anne" "Beatrice" "Caroline" "Charlotte" "Eleanor" "Elizabeth" "Helena" "Jane" "Louise" "Margaret" "Mary" "Matilda" "Sophia" "Victoria" "Arkady"
+		     }
+			
+			regnal_second_names = {
+				Dimka-Tseng, Royal, 
+			}
+		}
+	}	 
+ }

@@ -1,0 +1,69 @@
+"Earth Empire"
+={
+	key="Earth Empire"
+	ship_prefix="EA"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Imperial Human"
+		plural="Imperial Humans"
+		adjective="Imperial Human"
+		species_bio="The Earth Empire is the remaining half of the Old Earth regime. It is still governed from the ancestral homeworld of the human species, and as such those within the Empire consider themselves a truer, more noble form of human. Even those at the bottom of the heap within the Empire can still look down at the humans of the Federation, or worse, the Cooperative.  Society is heavily stratified within the Empire. Resources, rights and freedoms are distributed unevenly, in a way that makes those who study history smile and mutter about a second Rebellion. However the Imperial Family have made changes since the Rebellion happened. Rather than limiting the opportunities of those below them to rise again, instead they have tried to ameliorate the motives that led to the Rebellion. As such there are now tangible benefits at every layer of their feudal system, even at the bottom."
+		name_list="PEE"
+		trait="trait_adaptive"
+		trait="trait_decadent"
+		trait="trait_wasteful"
+		trait="trait_traditional"
+		trait="trait_nomadic"
+	}
+	name="Earth Empire"
+	adjective="Imperial"
+	authority="auth_imperial"
+	government="gov_feudal_empire"
+	advisor_voice_type="l_authoritarian"
+	planet_name="Earth"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"light_green"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Emilie Dimka-Tseng"
+		portrait="human_female_02"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Emperor"
+		heir_title="Prince"
+		ruler_title_female="Empress"
+		heir_title_female="Princess"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_decadent_hierarchy_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_feudal_realm"
+		"civic_aristocratic_elite"
+	}
+}

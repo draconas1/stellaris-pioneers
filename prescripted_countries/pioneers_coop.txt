@@ -1,0 +1,65 @@
+"Co-Operative"
+={
+	key="Co-Operative"
+	ship_prefix="CO"
+	species={
+		class="HUM"
+		portrait="human"
+		name="Co-op Human"
+		plural="Co-op Humans"
+		adjective="Co-op Human"
+		species_bio="The Second Revolution was an uprising from within the Federation aimed at preventing its slide into corporate fascism. It failed. The surviving rebels fled to a cluster of systems that had been surveyed but not occupied, or terraformed, to live free: free from oppression; free from rules; and free, sadly, from resources. Those who live on these frontier worlds have turned their backs on the power structures of the other two Human societies and live as pure Anarchists, utterly rejecting the notion of any but the loosest and most temporary of leadership in favour of a complex web of social obligation, mutual support, and competition for personal glory. A few groups within the Co-Operative form themselves into Workers Collectives, self managing their work and private lives as part of a survival effort."
+		name_list="HUMAN1"
+		trait="trait_extremely_adaptive"
+		trait="trait_deviants"
+		trait="trait_fleeting"
+		trait="trait_slow_learners"
+		trait="trait_conservational"
+	}
+	name="Co-Operative"
+	adjective="Coop"
+	authority="auth_democratic"
+	government="gov_communal_parity"
+	advisor_voice_type="l_the_worker"
+	planet_name="Radlena"
+	planet_class="pc_continental"
+	system_name="Bozgomil"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"teal"
+			"green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Shahriar Khamenei"
+		portrait="human_male_05"
+		texture=0
+		hair=10
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=no
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_pacifist"
+	civics={
+		"civic_shared_burden"
+		"civic_beacon_of_liberty"
+	}
+}
