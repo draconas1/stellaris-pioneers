@@ -9,9 +9,7 @@ PEarthEmpire = {
 		name_list="PEE"
 		trait="trait_adaptive"
 		trait="trait_decadent"
-		trait="trait_wasteful"
 		trait="trait_traditional"
-		trait="trait_nomadic"
 	}
 	name="Earth Empire"
 	adjective="Imperial"
