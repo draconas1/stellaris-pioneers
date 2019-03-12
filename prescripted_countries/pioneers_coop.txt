@@ -1,7 +1,5 @@
-"Co-Operative"
-={
-	key="Co-Operative"
-	ship_prefix="CO"
+PCoop = {
+	ship_prefix="COS"
 	species={
 		class="HUM"
 		portrait="human"
@@ -55,7 +53,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_erudite_explorers_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_pacifist"
 	civics={

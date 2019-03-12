@@ -1,0 +1,8 @@
+# United Nations of Earth
+part = {
+        location = 0
+        localization = "START_SCREEN_PEA"	
+        trigger = {
+               has_country_flag = PEarthEmpire
+        }		
+}

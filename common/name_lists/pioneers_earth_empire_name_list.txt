@@ -48,21 +48,18 @@ PEE = {
 		 constructor = {
 			 "Asahi" "Akashi" "Taigei" "Astradharani" "Aditya" "Godetia" "Malina" "Vis" "Salina" "Boraida" "Yunbou" "Poolster" "Anvil" "Keeper" "Durance" "Rover" "Cape" "Page" "Diligence" "Keystone" "Supply" "Bridge"
 		 }
-		
+		 
 		 transport = {
-			 random_names = {
-				 "Albion" "Anzio" "Attacker" "Avenger" "Bachaquero" "Battler" "Ben Lomond" "Ben Nevis" "Bigsbury Bay" "Boxer" "Bruiser" "Bulwark" "Burghead Bay" "Cardigan Bay" "Carnarvon Bay" "Cawsand Bay" "Charger" "Chaser" "Dieppe" "Dunkirk" "Eastway" "Enard Bay" "Fearless" "Fighter" "Highway" "Hollesley Bay" "Hull" "Hunter" "Intrepid" "Largo Bay" "Largs Bay" "Lofoten" "Lyme Bay" "Messina" "Misoa" "Morecambe Bay" "Mounts Bay" "Narvik" "Northway" "Ocean" "Oceanway" "Padstow Bay" "Porlock Bay" "Puncher" "Pursuer" "Ravager" "Reggio" "Salerno" "Searcher" "Slinger" "Smiter" "St Austell Bay" "St Brides Bay" "St Nazaire" "Stalker" "Start Bay" "Striker" "Sulva" "Tasajera" "Theseus" "Thruster" "Tracker" "Tremadoc Bay" "Trounder" "Trumpeter" "Vaagso" "Veryan Bay" "Walcheren" "Whitesand Bay" "Widemouth Bay" "Wigtown Bay" "Zeebrugge"
-			 }
-			 # sequential_name = "LCVP %O%"
+			 "Albion" "Anzio" "Attacker" "Avenger" "Bachaquero" "Battler" "Ben Lomond" "Ben Nevis" "Bigsbury Bay" "Boxer" "Bruiser" "Bulwark" "Burghead Bay" "Cardigan Bay" "Carnarvon Bay" "Cawsand Bay" "Charger" "Chaser" "Dieppe" "Dunkirk" "Eastway" "Enard Bay" "Fearless" "Fighter" "Highway" "Hollesley Bay" "Hull" "Hunter" "Intrepid" "Largo Bay" "Largs Bay" "Lofoten" "Lyme Bay" "Messina" "Misoa" "Morecambe Bay" "Mounts Bay" "Narvik" "Northway" "Ocean" "Oceanway" "Padstow Bay" "Porlock Bay" "Puncher" "Pursuer" "Ravager" "Reggio" "Salerno" "Searcher" "Slinger" "Smiter" "St Austell Bay" "St Brides Bay" "St Nazaire" "Stalker" "Start Bay" "Striker" "Sulva" "Tasajera" "Theseus" "Thruster" "Tracker" "Tremadoc Bay" "Trounder" "Trumpeter" "Vaagso" "Veryan Bay" "Walcheren" "Whitesand Bay" "Widemouth Bay" "Wigtown Bay" "Zeebrugge"
 		 }
-		
+		 
 		 military_station_small = {
 			 "Agrippa" "Argenta" "Arromanches" "Ascension" "Beith" "Bickleigh" "Caledonia" "Chivenor" "Clyde" "Collingwood" "Condor" "Coulport" "Crombie" "Devonport" "Drake" "Excellent" "Faslane" "Gosport" "Heron" "Juffair" "Lympstone" "Machrihanish" "Merryfield" "Nelson" "Neptune" "Northwood" "Poole" "Portsmouth" "Predannack" "Raleigh" "Saker" "Salisbury" "Seahawk" "Sembawang" "Stonehouse" "Suffield" "Sultan" "Temeraire" "Bombay Castle" "Brimstone Hill Fortress" "Cambridge Battery" "Della Grazie Battery" "Diamond Rock" "Fort Benghisa" "Fort Bingemma" "Fort Campbell" "Fort Charles" "Fort Delimara" "Fort George" "Fort James" "Fort Leonardo" "Fort Madalena" "Fort Melliena" "Fort Mosta" "Fort Pembroke" "Fort Rinella" "Fort Saint Rocco" "Fort San Lucian" "Fort St. David" "Fort St. George" "Fort Tas-Silg" "Fort Verdala" "Fort William" "Garden Battery" "Lascaris Battery" "Mare Harbour" "Mount Pleasant" "Norton Manor" "Pembroke Battery" "Saint Lucian Redoubt" "Saint Paul's Battery" "San Rocco Redoubt" "Sliema Point Battery" "Spinola Battery" "Targa Battery" "Wardija Battery" "Wolseley Battery" "Zonqor Battery"
 		 }
 
 		 ion_cannon = {
 		 	 "Agrippa" "Argenta" "Arromanches" "Ascension" "Beith" "Bickleigh" "Caledonia" "Chivenor" "Clyde" "Collingwood" "Condor" "Coulport" "Crombie" "Devonport" "Drake" "Excellent" "Faslane" "Gosport" "Heron" "Juffair" "Lympstone" "Machrihanish" "Merryfield" "Nelson" "Neptune" "Northwood" "Poole" "Portsmouth" "Predannack" "Raleigh" "Saker" "Salisbury" "Seahawk" "Sembawang" "Stonehouse" "Suffield" "Sultan" "Temeraire" "Bombay Castle" "Brimstone Hill Fortress" "Cambridge Battery" "Della Grazie Battery" "Diamond Rock" "Fort Benghisa" "Fort Bingemma" "Fort Campbell" "Fort Charles" "Fort Delimara" "Fort George" "Fort James" "Fort Leonardo" "Fort Madalena" "Fort Melliena" "Fort Mosta" "Fort Pembroke" "Fort Rinella" "Fort Saint Rocco" "Fort San Lucian" "Fort St. David" "Fort St. George" "Fort Tas-Silg" "Fort Verdala" "Fort William" "Garden Battery" "Lascaris Battery" "Mare Harbour" "Mount Pleasant" "Norton Manor" "Pembroke Battery" "Saint Lucian Redoubt" "Saint Paul's Battery" "San Rocco Redoubt" "Sliema Point Battery" "Spinola Battery" "Targa Battery" "Wardija Battery" "Wolseley Battery" "Zonqor Battery"
-		 }		
+		 }
 	 }
 
 	 fleet_names = {
@@ -182,7 +179,7 @@ PEE = {
 			 }
 			
 			regnal_first_names_male = {
-				 "Alastair" "Albert" "Alexander" "Alfred" "Andrew" "Carl" "Charles" "Constantine" "David" "Donald" "Duncan" "Edgar" "Edmund" "Edward" "Francis" "George" "Harold" "Harry" "Henry" "James" "John" "Kenneth" "Louis" "Malcolm" "Oliver" "Philip" "Richard" "Robert" "William", "Theodore"
+				 "Alastair" "Albert" "Alexander" "Alfred" "Andrew" "Carl" "Charles" "Constantine" "David" "Donald" "Duncan" "Edgar" "Edmund" "Edward" "Francis" "George" "Harold" "Harry" "Henry" "James" "John" "Kenneth" "Louis" "Malcolm" "Oliver" "Philip" "Richard" "Robert" "William" "Theodore"
 			 }
 			 
 			 regnal_first_names_female = {
@@ -190,7 +187,7 @@ PEE = {
 		     }
 			
 			regnal_second_names = {
-				Dimka-Tseng, Royal, 
+				"Dimka-Tseng" "Royal" 
 			}
 		}
 	}	 

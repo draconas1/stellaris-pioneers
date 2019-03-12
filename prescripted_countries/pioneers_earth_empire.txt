@@ -1,14 +1,11 @@
-"Earth Empire"
-={
-	key="Earth Empire"
-	ship_prefix="EA"
+PEarthEmpire = {
+	ship_prefix="ISS"
 	species={
 		class="HUM"
 		portrait="human"
 		name="Imperial Human"
 		plural="Imperial Humans"
-		adjective="Imperial Human"
-		species_bio="The Earth Empire is the remaining half of the Old Earth regime. It is still governed from the ancestral homeworld of the human species, and as such those within the Empire consider themselves a truer, more noble form of human. Even those at the bottom of the heap within the Empire can still look down at the humans of the Federation, or worse, the Cooperative.  Society is heavily stratified within the Empire. Resources, rights and freedoms are distributed unevenly, in a way that makes those who study history smile and mutter about a second Rebellion. However the Imperial Family have made changes since the Rebellion happened. Rather than limiting the opportunities of those below them to rise again, instead they have tried to ameliorate the motives that led to the Rebellion. As such there are now tangible benefits at every layer of their feudal system, even at the bottom."
+		adjective="Imperial Human"		
 		name_list="PEE"
 		trait="trait_adaptive"
 		trait="trait_decadent"
@@ -59,9 +56,10 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
-	spawn_enabled=no
+	spawn_enabled=yes
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_spiritualist"
+	flags = { PEarthEmpire custom_start_screen }
 	civics={
 		"civic_feudal_realm"
 		"civic_aristocratic_elite"

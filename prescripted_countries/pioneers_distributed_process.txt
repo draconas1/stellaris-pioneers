@@ -1,0 +1,62 @@
+PDistributedProcess= {
+	ship_prefix="ISS"
+	species={
+		class="MACHINE"
+		portrait="sd_fun_robot"
+		name="Distributed Process"
+		plural="Distributed Processes"
+		adjective="Distributed Process"
+		name_list="MACHINE1"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_custom_made"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_superconductive"
+	}
+	name="Distributed Process"
+	adjective="Distributed Process"
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	advisor_voice_type="l_machine"
+	planet_name="Mechaz Prime"
+	planet_class="pc_tundra"
+	system_name="Mechaz"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"light_orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Core"
+		portrait="sd_fun_robot"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Iteration 0"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=yes
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_predictive_analysis"
+		"civic_machine_unitary_cohesion"
+	}
+}
