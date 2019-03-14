@@ -1,12 +1,11 @@
 PFederation = {
-	ship_prefix="ISS"
+	ship_prefix="FSA"
 	species={
 		class="HUM"
 		portrait="human"
-		name="Federation Human"
-		plural="Federation Humans"
-		adjective="Federation Human"
-		species_bio="Although the Federation is ostensibly governed by a centralised body, the majority of power and wealth is held by vast megacorporations. These business groups act almost entirely outside of governmental control, and hold such sway within government ranks that, to all intents and purpose, they are the governing body. Although to outsiders the Federation may appear a relaxed a liberal structure, the corporations who hold sway are often reactionary and totalitarian. However within the structures advancement is a definite opportunity, and one based on competence, rather than family. The genders are treated equally too, with no expectations of specific behaviour from either, other than total loyalty to the Federation."
+		name="Human"
+		plural="Humans"
+		adjective="Human"
 		name_list="HUMAN1"
 		trait="trait_thrifty"
 		trait="trait_adaptive"
@@ -56,6 +55,6 @@ PFederation = {
 	ethic="ethic_fanatic_materialist"
 	civics={
 		"civic_ruthless_competition"
-		"civic_brand_loyalty"
+		"civic_franchising"
 	}
 }

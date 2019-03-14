@@ -1,0 +1,209 @@
+###
+### Codes: %C% = cardinal, %O% = ordinal, %R% = Roman numeral
+###
+
+PCOOP_NL = {
+	 randomized = no
+	 alias = "Cooperative"
+
+	 ship_names = {
+
+		 generic = {
+			"Khutma the Great" "Rhun the Unyielding" "Kashnak the Patient" "Roktar the Brave" "Suulnar the Stalwart" "Khebb the Fierce" "Lasnem the Unforgiving" "Mendrack the Cunning" "Yndan the Strong" "Pandack the Wise" "Ialness the Superior" "Anaban the Impervious" "Galato the Just" "Hempest the Fearless" "Utak the Unexpected" "Jhana the Bold" "Hitaab the Silent" "Rhebnar the Cruel" "Tetran the Vile" "Elesna the Fortunate" "Berek the Clever" "Porsam the Shadow" "Lur the Unpredictable" "Mantar the Devious" "Ashnu the Sober" "Perek the Magnanimous" "Holt the Magnificent" "Jesslur the Steadfast" "Ombek the Stout" "Bynth the Firm" "Goron the Shining" "Hhomev the Courageous" "Donabb the Resolute" "Selrak the Dependable" "Farassa the Spirited" "Tork the Determined" "Tipuk the Earnest" "Urbek the Unhesitant" "Illvagh the Tenacious" "Faju the Stubborn" "Khabbash the Furious" "Appan the Joyless" "Ketrill the Bright" "Lessaja the Ruinous" "Issa the Judgmental" "Letham the Decisive" "Rotha the Invincible" "Foss the Quick" "Jolkeg the Agile" "Tetregg the Nimble" "Ghuum the Merciful" "Rothinka the Enlightened" "Khamba the Merciless" "Linntyl the Sharp" "Onakbal the Able" "Hoftaht the Avenger" "Menesik the Blessed" "Rothnak the Brash" "Lahvon the Impudent" "Rhass the Conqueror" "Ihlmac the Crusader" "Johvon the Executioner" "Pahni the Glorious" "Esslon the Good" "Untabb the Grim" "Nehdaban the Holy" "Nothan the Imperious" "Galathor the Hunter" "Garal the Liberator" "Innik the Martyr" "Avathim the Mighty" "Jimmab the Powerful" "Comboc the Proud" "Varkhim the Prudent" "Konsha the Redeemer" "Kadmun the Restorer" "Khaagul the Righteous" "Yhlat the Savior" "Hahjum the Gallant" "Falatir the Valiant" "Fahvim the Victorious" "Listhim the Warrior" "Bathun the Champion" "Hihmal the Scourge" "Tatharon the Dominator" "Dorlan the Tyrant" "Karvulan the Damned" "Cyssak the Dignified" "Veltassa the Ordained" "Ossana the Founder" "Usal the Builder" "Hissnak the Fair" "Elemano the Prodigal" "Etheron the Unifier" "Othana the Benign" "Olymac the Learned" "Tiltar the Young" "Timaphon the Implacable" "Veldik the Merry" "Jussannon the Hermit" "Irevan the Bitter" "Russu the Sour" "Remol the Abandoned" "Petrack the Solitary" "Thaloth the Justiciar" "Asmacin the Gracious" "Taralla the Graceful" "Eskeman the Blue" "Muntat the Yellow" "Ratalla the Red" "Tulakin the White" "Effkar the Black" "Lisamont the Green" "Lomatik the Butcher" "Ralpakin the Defender" "Jhulla the Protector" "Jhutana the Elder" "Donog the Apogee" "Dassmath the Fighter" "Dathana the Mystic" "Darmull the Mysterious" "Ulbanok the Equitable" "Bathar the Amicable" "Bemalon the Distrustful" "Hannakon the Sacrificer" "Haghonon the Watchful" "Hephanir the Savage" "Erkmal the Provident" "Suthnar the Provider" "Monnobak the Sentinel" "Seleng the Venerable" "Salaas the Revered" "Suthmar the Hardy" "Yllmassa the Reformer" "Tessma the Monstrous" "Borok the Affable" "Khamtha the Illustrious" "Kamkak the Celebrated" "Damghalla the Heroic" "Jaffab the Devoted" "Mitgapp the Humble" "Gaffimul the Impetuous" "Ussnak the Vigilant" "Petrobon the Contender" "Pagallum the Loyal" "Peshnab the Faithful" "Itrambun the Whirlwind" "Takjam the Memorable" "Takkram the Lawgiver" "Fylima the Lawful" "Petessa the Symbol" "Elsam the Slighted" "Cognat the Slayer" "Carackon the Guardian" "Nimpac the Observer" "Illajon the Astute" "Gimalbon the Perceptive" "Rommackin the Sly" "Polonar the Insidious" "Campramar the Pernicious" "Limpok the Baneful" "Ruthjara the Icon" "Limathar the Majestic" "Kajana the Swift" "Rukimar the Renowned" "Patana the Distinguished" "Hishma the Brooding" "Korgi the Unstable" "Kodram the Suave" "Donjab the Tactician"
+		 }
+
+		 corvette = {
+			"Me Van" "Jimmy's Rig" "Two Short Plancks" "Crash Mat" "Contingency Plan?" "Blind Spot" "Coping Mechanism" "Target Practice" "Suicidal Tendencies" "Sampling Error""Combat Wombat" "Jenny Haniver" "13th Floor Elevator" "Invisible Worm" "Temporary Blip" "Humbug" "Aerymouse" "Junkyard Angel" "Flying Ferret" "Austerity Biscuit" "Damn You, Gravity!" "Bad Hair Day" "Spider Baby" "Burglar Bill" "Go Faster Stripes" "Rust Bucket" "Lemon" "Old Banger" "Scrap Launcher" "Unidentified Frying Object" "Mouldy Crow" "Planet Of The Japes" "'Ere We Go" "Voot Runner" "Foo Fighter" "Amazing Bat Boy" "Mothman" "Sverdlovsk Midget" "Mutant Child" "Absentee Parent" "Strangelet" "Usain Boat" "Eat Ship" "Drug Money" "Campbell's Sloop" "Aboat Time" "Whoffle" "Miss Conduct" "Wing And A Prayer" "Vertigo" "This Time Around" "The Whole Point" "Picket Liner" "Uncle Istvan" "Buzz Parsec" "Down It Goes" "No Step On Snek" "Way Cool!" "Super Swift" "Breakaway" "Bounty" "Star Of The Runway" "Nip The Monkey" "Admirable Crichton" "Snibedi Snab" "That Feel When" "Heresy Detected!" "Fly My Pretties" "Forlorn Hope"
+		 }
+		
+		 destroyer = {
+			"Human Riots" "Fight Of Fancy" "Perpetual Notion" "Indifference Engine" "Sticks And Stones" "Authorised Dreamcatcher" "Wipe Your Fleet" "Diplomatic Angst" "Fight Of Fancy" "Zeitgeist Heist" "Mine The Gap" "Dream On" "Warped Mind" "Andromeda or Bust" "My Shirona" "Archaeopteryx" "Zip Gun Boogie" "Mine Turtle" "Salvation Navy" "Priceless Ming Vase" "Cloned Sheep" "Homing Pigeon" "Concrete Donkey" "Lying Bastard" "Bebop" "Fly By Night" "Cunning But Fighty" "Fighty But Cunning" "Ghost Rocket" "Flatwoods Monster" "Valensole" "Gulf Breeze" "Flatness Problem" "Simon Says" "Somebody Else's Problem" "Browncoat" "Shaken Not Stirred" "Snake Tribal" "General Zod" "Very Goodnight"
+		 }
+		
+		 cruiser = {
+			"Stellar Badass" "Solar Ninja" "The Zap Wagon" "Lasers R Us" "Fun With Fusion" "Nuclear Kitten" "Shadow Aspect" "Smaug" "Requiem Vortex" "Hungry Ghost" "Mokele Mbembe" "Kessler Syndrome" "Megazone" "Gunstar" "Bazooka" "Green Fireball" "Naga Fireball" "Maelstrom Avenger" "Omega Red" "Porcupine" "The Criminals You Deserve" "Guardal Canal" "Swordbreaker" "Rattlesnake" "Big Stick" "Missile Massacre" "Pick The Gun Up" "Fury Of A Demon" "Power Of Heart"
+		 }
+		
+		 battleship = {
+			"Or Die Trying" "Victory Or Death" "Give Me Liberty" "I Will Cut You" "Sic Semper Tyrannis" "Beacon Of Liberty" "Free State" "Mother Of Order" "Be The Revolution" "Intelligence To Want" "Courage To Take" "Live Free" "Democracy Taken Seriously" "Nothing Is Yours" "Accept No Rule" "Success Through Violence" "Justify The End"
+		 }
+
+		 titan = {
+			"Total Overkill" "Galactic Maniac" "Planet Pounder" "The Massive" "Extreme Violence" "Disaster Area"
+		 }
+
+		 colossus = {
+			"Hand Of God" "Deth Starr" "QED" "Galaxy Gun" "Illudium"
+		 }
+		
+		 science = {
+			"Tentative Tentacles" "Little Green Men" "Lucid Dream" "Boaty McBoatface" "Blue Touch Paper" "Curiosity Killed The Cat" "Lies To Children" "Weirdly Plausible" "Sky's The Limit" "Event Horizon" "Ship For Brains" "What If?" "Meta Probe" "Lambda Factor" "Dr Hugh Hunt" "Flat Earther" "Tinfoil Hat" "That's Just My Opinion" "Elementary" "Only Inspect" "Kitchen Science" "Eyewitness" "Or It Didn't Happen"
+		 }
+		
+		 colonizer = {
+			"Hunter-Gratzner" "Life Is Good" "Vamoose" "More Than Enough" "Charabanc" "Wagon Train" "First Edition" "Temporarily Homeless" "The First Twenty Million" "All Kinds Of Craziness" "Outnumbered" "Cash Negative" "Can't Take It With You" "Winning Ticket" "Red Dwarf" "Woodstock" "The Odds Are Good" "The Goods Are Odd"
+		 }
+		
+		 constructor = {
+			"Bag Of Spanners" "Workers Of All Worlds" "Tug Life" "First In Business" "Labour Of Love" "Beat The Clock" "Industrial Action" "Boom Time" "Plenty O'Toole" "Image Is Everything" "Cannibal Caretaker" "Too Cheap To Ignore" "Space Trucker" "Proper Job" "Time And A Half" "Scoundrel's Work" "User Friendly"
+		 }
+		 
+		 transport = {
+			sequential_name = "%O% Transport"
+		 }
+		 
+		 military_station_small = {
+			sequential_name = "%O% Defence Station"
+		 }
+
+		 ion_cannon = {
+			sequential_name = "%O% Ion Cannon"
+		 }
+	 }
+
+	 fleet_names = {
+		sequential_name = "Fleet %C%"
+     }
+	
+	 army_names = {
+		 defense_army = {
+			sequential_name = "%C% Defence Force"		 
+		 }
+
+		 assault_army = {			
+			 sequential_name = "%C% Spartans"
+		 }
+		
+		 slave_army = {
+			 sequential_name = "%C% Slaves"
+		 }
+		
+		 clone_army = {
+			 sequential_name = "%C% Clones"
+		 }
+		
+		 robotic_army = {
+			 sequential_name = "%C% Robotic"
+		 }
+
+		 robotic_defense_army = {
+			 sequential_name = "%C% Robotic Defence Force"
+		 }
+				
+		 psionic_army = { 
+			 sequential_name = "%C% Neuro-Externals"
+		 }
+		
+		 xenomorph_army = {
+			 sequential_name = "%C% Monsters"
+		 }
+		
+		 gene_warrior_army = {
+			 sequential_name = "%C% Gene Warriors"
+		 }
+	 }
+
+	 ### PLANETS
+	planet_names = {
+
+		generic = {
+			names = {
+				"Port Brasta" "Hrung" "Praxibetel" "Gretchen Town" "Brantisvogan" "Zondostina" "Milliard" "Angel" "Athens" "Boros" "Dyton" "Highgate" "Ita" "Kerry" "Londinium" "Lilac" "Liann Juin" "Newhall" "Paquin" "Parth" "Salisbury" "Silverhold" "Sihnon" "Three Hills" "Whittier" "Burnet" "Auros" "Exbar" "Freedom City" "Riff" "Woolamurra" "Garson's World" "Faraway" "Blessed" "New Beginnings" "Ormuzd" "Pitcairn" "Whistle Stop" "Byer's World" "Deka" "Faraday" "Uttermosts" "Chiffewar" "Moth" "Burley" "Dawn" "New Paris" "Repler" "Oerlikon" "Bolthole" "Dresden" "Flax" "Gregor" "Halliman" "Haupt" "New Dijon" "Kuan Yin" "Jinx" "We Made It" "Down" "Margrave" "Burgess" "Dalarna" "Franklin" "New Washington" "Hadley" "New Chicago" "Silvereyes" "Pop Star" "Traya" "Xanthis"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Muir" "Obsidian" "New South Georgia" "Treetrunk"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"St Albans" "Beylix" "Rakuli" "Trondheim"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Higgins' World" "Regina" "Deadwood" "Verbena" "Serrana" "Mesa" "Canyon" "Thurstone" "Tabletop"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Eadrax" "New Cottington" "Bellerophon" "Hera" "Osiris" "Harvest" "Gardenos" "Sarru" "Home"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"Ezra" "Suni" "Zerok" "Enki" "Zanj" "Scoria"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Lamuella" "Pelorum" "Fiddler's Green" "Beldene" "Wunderland"
+ 			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Hactar" "Agrajag" "Now What" "Shadow" "Soro"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"New Hawaii" "Damogran" "Santraginus" "New Melbourne" "Tangaroa" "Fafnir" "Oceanus"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Beaumonde" "Jiangyin" "Santo" "Triumph" "Bernadette" "Horseye" "Kemal" "Zanzibar"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Hensha" "Ariel" "Greenleaf" "Theophrastus" "Bucol" "Horizon" "Midworld" "Baía" "Gummidgy" "Tanith"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Jaglan" "Aberdeen" "Montana" "Rembrandt" "Moskva" "Maxroy's Purchase"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names_male = { 
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat Limathar Elemano Khebb Tetran Ketrill Rhass Linntyl Haghonon Darmull Ralpakin Campramar Monnobak Hannakon Darmug Ghuum Jaffab Thaloth Shirip Rhethan Jonnar Esthonir Mikab Veldanur Dorokin Sebakhir Corron Tirran Shibbal Lathir Veltass Karb Jondru
+			}
+			full_names_female = {
+				Falatira Hephanira Timaphona Listhima Jesslura Yndana Kashnaka Bemalona Cognati Limathara Elemani Khebba Tetrana Ketrilla Rhassa Linntyla Haghonona Darmulla Ralpakini Campramara Monnobaki Hannakona Darmuga Ghuumi Jaffaba Thalotha Shiripa Rhethana Jonnara Esthonira Mikaba Veldanura Dorokina Sebakhira Corrona Tirrana Shibbala Lathira Veltassa Karba Jondra
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				Falatir Hephanir Timaphon Listhim Jesslur Yndan Kashnak Bemalon Cognat
+			}
+			
+			regnal_second_names = {
+				d'Vhakk
+			}
+		}
+	}
+ }

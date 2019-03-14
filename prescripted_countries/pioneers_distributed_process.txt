@@ -1,5 +1,5 @@
 PDistributedProcess= {
-	ship_prefix="ISS"
+	ship_prefix="DPSS"
 	species={
 		class="MACHINE"
 		portrait="sd_fun_robot"
@@ -10,15 +10,13 @@ PDistributedProcess= {
 		trait="trait_machine_unit"
 		trait="trait_robot_logic_engines"
 		trait="trait_robot_custom_made"
-		trait="trait_robot_luxurious"
-		trait="trait_robot_superconductive"
 	}
 	name="Distributed Process"
 	adjective="Distributed Process"
 	authority="auth_machine_intelligence"
 	government="gov_machine_research"
 	advisor_voice_type="l_machine"
-	planet_name="Mechaz Prime"
+	planet_name="Core Prime Node"
 	planet_class="pc_tundra"
 	system_name="Mechaz"
 	initializer=""

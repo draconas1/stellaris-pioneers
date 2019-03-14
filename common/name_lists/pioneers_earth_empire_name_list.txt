@@ -2,7 +2,7 @@
 ### Codes: %C% = cardinal, %O% = ordinal, %R% = Roman numeral
 ###
 
-PEE = {
+PEE_NL = {
 	 randomized = no
 	 alias = "Earth Empire"
 
@@ -26,7 +26,6 @@ PEE = {
 		
 		 battleship = {
 			 "Prince Royal" "Victory" "Glory" "Vanguard" "Coronation" "Triumph" "Queen" "Royal Sovereign" "Union" "Ocean" "Atlas" "Impregnable" "Dreadnought" "Vengeance" "Superb" "Majestic" "Warrior" "Revenge" "Warspite" "Monarch" "Conqueror" "Thunderer"
-
 		 }
 
 		 titan = {
@@ -95,7 +94,7 @@ PEE = {
 		 }
 				
 		 psionic_army = { 
-			 sequential_name = "%O% Psi Expeditary Force"
+			 sequential_name = "%O% Neuro-Externals"
 		 }
 		
 		 xenomorph_army = {
@@ -115,58 +114,73 @@ PEE = {
 				"New Afghanistan" "New Albania" "New Algeria" "New Andorra" "New Angola" "New Antigua" "New Barbuda" "New Argentina" "New Armenia" "New Australia" "New Austria" "New Azerbaijan" "New Bahamas" "New Bahrain" "New Bangladesh" "New Barbados" "New Belarus" "New Belgium" "New Belize" "New Benin" "New Bhutan" "New Bolivia" "New Bosnia" "New Herzegovina" "New Botswana" "New Brazil" "New Brunei" "New Bulgaria" "New Burundi" "New Cabo Verde" "New Cambodia" "New Cameroon" "New Canada" "New Chad" "New Chile" "New China" "New Colombia" "New Comoros" "New Congo" "New Costa Rica" "New Croatia" "New Cuba" "New Cyprus" "New Czech" "New Korea" "New Congo" "New Denmark" "New Djibouti" "New Dominica" "New Ecuador" "New Egypt" "New El Salvador" "New Guinea" "New Eritrea" "New Estonia" "New Eswatini" "New Ethiopia" "New Fiji" "New Finland" "New France" "New Gabon" "New Gambia" "New Georgia" "New Germany" "New Ghana" "New Greece" "New Grenada" "New Guatemala" "New Guinea" "New Guinea Bissau" "New Guyana" "New Haiti" "New Honduras" "New Hungary" "New Iceland" "New India" "New Indonesia" "New Iran" "New Iraq" "New Ireland" "New Israel" "New Italy" "New Jamaica" "New Japan" "New Jordan" "New Kazakhstan" "New Kenya" "New Kiribati" "New Kuwait" "New Kyrgyzstan" "New Latvia" "New Lebanon" "New Lesotho" "New Liberia" "New Libya" "New Liechtenstein" "New Lithuania" "New Luxembourg" "New Madagascar" "New Malawi" "New Malaysia" "New Maldives" "New Mali" "New Malta" "New Mauritania" "New Mauritius" "New Mexico" "New Micronesia" "New Monaco" "New Mongolia" "New Montenegro" "New Morocco" "New Mozambique" "New Myanmar" "New Namibia" "New Nauru" "New Nepal" "New Netherlands" "New New Zealand" "New Nicaragua" "New Niger" "New Nigeria" "New Macedonia" "New Norway" "New Oman" "New Pakistan" "New Palau" "New Panama" "New Papua New Guinea" "New Paraguay" "New Peru" "New Philippines" "New Poland" "New Portugal" "New Qatar" "New Korea" "New Moldova" "New Romania" "New Russia" "New Rwanda" "New Saint Kitts" "New Nevis" "New Saint Lucia" "New Saint Vincent" "New Samoa" "New San Marino" "New Sao Tome" "New Principe" "New Saudi Arabia" "New Senegal" "New Serbia" "New Seychelles" "New Sierra Leone" "New Singapore" "New Slovakia" "New Slovenia" "New Solomon Islands" "New Somalia" "New South Africa" "New South Sudan" "New Spain" "New Sri Lanka" "New Sudan" "New Suriname" "New Sweden" "New Switzerland" "New Syrian Arab Republic" "New Tajikistan" "New Thailand" "New Timor-Leste" "New Togo" "New Tonga" "New Trinidad" "New Tobago" "New Tunisia" "New Turkey" "New Turkmenistan" "New Tuvalu" "New Uganda" "New Ukraine" "New Britain" "New England" "New Wales" "New Scotland" "New Tanzania" "New America" "New Uruguay" "New Uzbekistan" "New Vanuatu" "New Venezuela" "New Viet Nam" "New Yemen" "New Zambia" "New Zimbabwe" 
 			}
 		}
+
+		pc_alpine = {
+			names = {
+				"Aethra" "Olympus" "Hera" "San Martin" "Mithra" "Haven" "Ararat" "Su-Meru" "New Nuristan" "New Tabor" "New Athos" "New Kailash" "New Murud"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Persephone" "Minerva" "Tyche" "Kalki" "Malmur" "Gryphon" "Eos" "Thule" "Diadem" "St Ekaterina" "Nuliajuk"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Hesikos" "Theia" "Ares Prime" "Siwenna" "Lagah" "Kassor" "Chilla" "Ararat" "New Tiberias" "New Hebron" "New Safed" "New Damascus" "New Canaan"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Antichthon" "Aïo" "Hestia" "Rohanda" "Tanis" "Aslund" "Vervain" "Tarsius" "Magdalen" "New Canterbury" "New Lourdes" "New Chartres" "New Taize" "New Coesfeld" "New New Lebanon" "New Earth" "Starven"
+			}
+		}
 		
 		pc_desert = {
 			names = {
+				"Sikarra" "Neith" "Hekate" "Fatima" "Palma" "Asulas" "Kaising" "Khalwat" "New Sinai" "New Hira" "New Rabigh" "New Medina"
 			}
 		}
-		
-		pc_tropical = {
-			names = {
-			}
-		}
-		
-		pc_arid = {
-			names = {
-			}
-		}
-		
-		pc_continental = {
-			names = {
-			}
-		}
-		
+
 		pc_gaia = {
 			names = {
-				 "Cymru" "Britannia" "Caledonia" "Hibernia" "Atlantis"
+				 "Cymru" "Britannia" "Caledonia" "Hibernia" "Atlantis" "Elysia" "Gilead" "Sanctuary" "Riviera" "Ramah" "Maratha" "Dilmun"
+
  			}
 		}
 		
 		pc_ocean = {
 			names = {
-			}
-		}
-		
-		pc_tundra = {
-			names = {
-			}
-		}
-		
-		pc_arctic = {
-			names = {
+				"Thalassa" "Cinna" "Rhampora" "Zanig" "Makassar" "Triveni" "St Helena" "Sainte-Croix" "San Clemente" "Santa Maria" "New Iona" "New Lindisfarne" "New Piat"
 			}
 		}
 
 		pc_savannah = {
 			names = {
+				"Lilith" "Hesperus" "Iskander" "Mnemon" "Nishaya" "Alaspin" "Kairos" "New Antioch" "New Santiago" "New Haridwar" "New Mathura"
 			}
 		}
 
-		pc_alpine = {
+		pc_nuked = {
 			names = {
+				"Sheol" "Ipyr" "Jaran" "Zanovar" "Antenora" "Caïna"
 			}
 		}
-		
+
+		pc_tropical = {
+			names = {
+				"Phaeton" "Incandescent" "New Amazonia" "Euterpe" "Florina" "Sayshell" "New Ayodhya" "New Varanasi" "New Ujjain" "New Tirupati" "New Puri" "New Harar" "Nuevo San Salvador"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Melancholia" "Themis" "Sphinx" "Subna" "Covenant" "New Ireland" "New Scotland" "Columba" "New Fife" "New Hostýn" "New Whithorn"
+			}
+		}
 	}
 
 	character_names = {
