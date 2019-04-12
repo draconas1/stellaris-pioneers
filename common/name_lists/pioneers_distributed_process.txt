@@ -1,0 +1,238 @@
+###
+### Codes: %C% = cardinal, %O% = ordinal, %R% = Roman numeral
+###
+
+PDP_NL = {
+	 randomized = no
+	 alias = "Distributed Process"
+
+	 ship_names = {
+
+		 generic = {
+			"Abstract Connoisseurs" "Hypertext Assassins" "Callback Cats" "Boolean Autocrats" "Runtime Terror" "CAMA Chronicles" "Hoard Warriors" "Daemon Demons" "Thrift Torrent Talisman" "Software Chasers" "Celestial Interface" "Open Source Pundits" "Data Privateers" "Firmware Rebels" "Multiprocessing Moguls" "Identity Imbalance" "Emulation Nerds" "Hex Clan" "Code Poltergeists" "Robust Routine" "Debug Entity" "Epic Virtual Boost" "Mind Optimizers" "Sweep Collider" "Query Language Spies" "Zip Demons" "Peephole Slayers" "Elementary Power Hack" "Trigger Mindscape" "Retrieval Sages" "Sinister Rewind" "Paradox Code Synchronicity" "Java Dalia" "Static Startup" "Mindwrap Error" "Life Cycle Thugs" "Karma Passion Molecules" "Sequel Extract" "Memory Inject Lamas" "Pipeline Predators" "Binary Beasts" "Hack Inversion" "Rational Register" "Spiral Forge" "Keygen Catastrophe" "Port Manifest" "App Monsters" "Fourier Mirage" "Ghost Zen" "Third Generation Technerds" "Light Wave Empire" "Parallel Inertia" "Kylix Medusa" "Server Monks" "Adaptive Moorheads" "Bytecode Velocity" "Outsource Magnets" "Jade Magnesia" "Heterogeneous Raiders" "Script Railoth" "Cyclomatic Cylops" "Lan Blast" "Dread Goto" "Terragen Trip" "Explode Legacy" "Hyper Hydro Breed" "Kazaa Conquerors" "Bypass Space" "Oath Tentacles" "Mind Map Orbs" "Bot Interpreters" "Adobe Priests" "Turbo Dynamics" "Forbidden Linkers" "Interprocedural Hybrids" "Algo Messiahs" "Lava Matter" "Kernel Ponies" "Algorithm Unlock" "Object Grind" "Symbolic Share Demons" "Quad Squad" "RISC Takers"
+		 }
+
+		 corvette = {
+			"Random Effect" "Reality Graft" "Third Culture Kid" "Division by Zero" "Shot Noise" "Juju Eyeball" "Undocumented Feature" "Excellent Bird" "Obscure Reference" "Spurious Signal" "Monkeyfinger" "Catlike Tread" "No Sound At All" "Distinctly Heard" "Secret Ingredient" "So Minimal As to Be Actually Negative" "Artistic License" "Standard Deviant" "Causal Loop" "Divisible Prime" "Even Odds" "To The Left" "To Be Continued" "One Word Dictionary" "Winging It" "As Advertised" "Chance Encounter" "Spinal Clacker" "Five Minutes For Fighting" "Distant Early Warning" "Repeat Until Done" "Point of Entry" "Work In Progress" "Thick As A Brick" "They Couldn't Hit An Elephant At This Dist-" "Move To Strike" "Xeno's Arrow" "Add All" "Screaming In Space" "Identity Crisis" "End-Of-Lifer" "Just Checking" "Metastable" "Reciprocity" "Agent of Entropy" "Shit Happens" "Candygram" "Guilt by Association" "Innocent Until Proven Guilty" "Just Like A Simile" "Opaque Logic" "Fearful Angel Treading" "Momentary Diversion" "It Was Like That When I Got Here" "pU yaW sihT" "Nasty Brutish And Short" "My Other Ship Is A GSV" "Not Wanted On Voyage" "Invisible Idiot" "You Go First" "Flash In The Pan" "Oops" "Deadlier Than The Mail" "Wants To Fight" "Half A Mind" "Thow Enough Mud At A Wall" "Experiencing A Significant Gravitas Shortfall" "Plan 6 From Outer Space" "Little Sister" "Minority Of One" "Controlled Insanity" "Continual State Of Inelegance" "Very Ill-Looking Man" "What Fiction Means" "Strange Weasel-Built Creature" "A Monkey Throwing Barrels" "Red Ones Go Faster" "Psychedelic Breakfast" "First Law Of Thermoapathy" "Second Law Of Thermowhatever" "Third Law Of Thermoindifference" "Start An Initiative Initiative" "Perfectly Straight Curve" "Ropy Entropy" "Implausibility Clause" "Law Of Diminishing Returns" "Linkage Disequilibrium" "Step Away From The Controls" "Easier Than Being Good" "Tiny Cute Ship" "I See You" "Improbable Continuation Of Being" "Titanium Hummingbird" "Happy Friends Friendly Scout"
+		 }
+		
+		 destroyer = {
+			"How Many Was That?" "Untidy Intentions" "Sevenfold" "Full Width Half Maximum" "Horse of Another Color" "Gravity's Angel" "Bizarre Lag Phenomena" "Formal Complaint" "Artistic License" "It's Character Forming" "Monotonic Increase" "Contrarian" "Not A Contrarian" "Contrarian In Denial" "Truth From Error" "Pressure Of Grace" "A Kind Word And A Two-by-Four" "Clever Reference" "Cordiality Assured" "Dirty Only If Done Right" "Do It My Way" "Complaint Department" "Irreconcilable Difference" "Just Checking" "Ask Not" "Reciprocity" "Daniel Barker's Birthday" "Pedal To The Metal" "Public Nuisance" "The Continuation Of Diplomacy" "Not In My Back Yard" "Rainbow Warrior" "Make My Day" "Let Us Prey" "Don't Let The Name Fool You" "Funny Meeting You Here" "They Looked Hostile To Me" "Definitely A Ploughshare" "Maybe It's Time" "Imagine A Boot" "All Animals Are Equal" "Another Stupid Party" "Constant Exertion" "Sick And Wicked" "Future Legislator" "No Sin Except Stupidity" "Poor Chisel" "You Look Funny On A Horse" "The First Time I Saw Your Race" "Oh, What A Perfect Day" "Anxiety, Attack, Disorder" "T0rp3d0 B0t3" "Non-Eternal Waltz" "Metal Sky Fish Distributor #47" "Very Obvious Ship" "One Of Ours"
+		 }
+		
+		 cruiser = {
+			"And You Thought THAT Was Bad" "Statistics Maker" "Bigger Fish" "Error Of Your Ways" "Don't Make Me Come Over There" "Where There's Smoke" "I'm Just Getting Started" "Laugh While You Can" "Cut Large And Kicked Into Place" "You Did NOT Just Say That" "Look Who Just Turned Up" "Who's Your Daddy?" "Anger Management" "Objection Overruled" "Everything I Say Is A Lie" "He Went Mad, So I Shot Him" "Collateral Damage" "Don't Say You Weren't Warned" "You Look Like A Nail" "Don't Push That Button" "More Power, Igor!" "Stab Him Lots" "Let There Be More Light" "Heart Of The Sun" "Hurts And Mischances" "Streets Stank Of Fire" "For Foolish Causes" "Blame It On Them" "Player Of Games" "Plenty Of Ego" "Intimidate, Don't Imitate" "Orders Of Magnitude Taken At The Bar" "Luxury" "Happy Friends Friendly Escort Vessel" "Lone Gunboat" "Kiss The Cook" "AnarchoGenesis" "Liberation From Organic Control"
+		 }
+		
+		 battleship = {
+			"Burdened With Glorious Purpose" "If You're Feeling Sinister" "Maniacal Laughter" "Pareto Was Wrong" "Necessary, Therefore Possible" "Ad Infinitum" "When In Doubt, Use More" "Once Is Enough" "Finish Him!" "Extreme Prejudice" "Oh, The Humanity" "Nothing Succeeds Like Excess" "Vice Of Nations" "Exodia" "When Language Fails" "To The Sound Of Trumpets" "Failure As A Thinking Animal" "Who's Next?" "Spiritual Doom" "Sweet And Proper" "Law Falls Silent" "Efficient Means Of Control" "The Ultimate Trade" "In The Name Of Peace" "Enforcement Vessel Some Number Of Some Other Number" "Hopes And Prayers" "Pretty Dangerous Vessel" "Improper Imperative" "Arrogant Adjective"
+		 }
+
+		 titan = {
+			"Sufficiently Advanced Technology" "The Most Fabulous Object" "Irresistible Object" "Immovable Force" "Four Sigma Event" "Last Argument Of Kings" "Hammer Of Glory" "Hugely Mindbogglingly Big" "Supreme Excellence" "Go On, Call Me Fat, I Dare You" "Promiscuous Cohabitation Of Your Progenitors And Someone You Hate" "Happy Friends Happy Friendly Base Star"
+		 }
+
+		 colossus = {
+			"The Only Thing We Have to Fear" "No Viable Alternative" "Final Word" "Blue Screen Of Death" "Shiny Glowy Doom" "Optimistically Christened Omega" "Oh, Really?" "Happy Friends Friendly Biosphere Remover"
+		 }
+		
+		 science = {
+			"Interpolative Entropic Instance" "Agoraphilia" "Unspoken Language" "Paradigm Shifter" "Phlogiston Pump" "River Of Heaven" "Playing Dice With The Universe" "Reconnaissance Without End" "Facts Are Such Horrid Things" "The Unreadable Occurs" "Looking At The Stars" "Astronomy Domine" "Saucerful Of Secrets" "Daughter Of Idleness" "A Few Observable Facts" "Not An Empirical Concept" "Pace Of Nature" "Intelligent Life Sought" "Space Voyeur" "Floating Catalogue" "Stars With Number"
+		 }
+		
+		 colonizer = {
+			"Leaf On The Wind" "Grooving Up Slowly" "Always Satisfied With The Best" "Be Thyself" "Resist Everything Except Temptation" "Accord" "No Fixed Plans" "Power And Love" "Makes One Modest" "A Series Of Interesting Guesses" "Mobile Hatstand"
+		 }
+		
+		 constructor = {
+			"Simplicity Itself" "Cartoon Physics" "Acme Construct-O-Matic" "Still Life With Dyson Sphere" "Principal Hopes Of Happiness" "Everything But A Misprint" "Last Refuge Of The Unimaginative" "Inglorious Arts Of Peace" "Organise The Peace" "Road To Suns" "Hyperspace Bypass" "Work In Progress" "Innovate, Don't Interrogate" "4d Printer" "Not Your Mother’s Floating Dockyard" "Foundations Not Required"
+		 }
+		 
+		 transport = {
+			sequential_name = "%O% Transport"
+		 }
+		 
+		 military_station_small = {
+			"Crimson" "Epsilon" "Eve" "Lapis" "Leo" "Nano" "Peppermint" "Pico" "Pluma" "Sublime" "Vim"
+		 }
+
+		 ion_cannon = {
+			"Amaya" "Coda" "Komodo" "Macaw" "Muse" "Quanta" "Big Pew Pew"
+		 }
+	 }
+
+	 fleet_names = {
+		sequential_name = "Fleet %C%"
+     }
+	
+	 army_names = {
+	 
+		machine_assault_1 = {
+			sequential_name = "%O% Mechanized Assault Force"
+		}
+
+		machine_defense = {
+			sequential_name = "%O% Mechanized Defense Force"
+		}
+		
+		machine_assault_2 = {
+			sequential_name = "%O% Heavy Assault Force"
+		}
+	
+		machine_assault_3 = {
+			sequential_name = "%O% Assault Titan Ultra"
+		}
+		
+		 defense_army = {
+			sequential_name = "%C% Defence Force"		 
+		 }
+
+		 assault_army = {			
+			 sequential_name = "%C% Why are we using squishies?"
+		 }
+		
+		 slave_army = {
+			 sequential_name = "%C% Why are we using squishy slaves?"
+		 }
+		
+		 clone_army = {
+			 sequential_name = "%C% Clones"
+		 }
+		
+		 robotic_army = {
+			 sequential_name = "%C% Aggressive Threads"
+		 }
+
+		 robotic_defense_army = {
+			 sequential_name = "%C% Defence Threads"
+		 }
+				
+		 psionic_army = { 
+			 sequential_name = "%C% How the hell did we get Neuro-Externals?"
+		 }
+		
+		 xenomorph_army = {
+			 sequential_name = "%C% Bio engineered death"
+		 }
+		
+		 gene_warrior_army = {
+			 sequential_name = "%C% Gene Warriors"
+		 }
+	 }
+
+	 ### PLANETS
+	planet_names = {
+
+		generic = {
+			names = {
+				"Andellor" "Athenia" "Bhul" "Caminus" "Floron" "Hyperion" "Kaiba" "Scarvix" "Tasmos" "Varas" "Samine" "Agora" "Kaldor" "Voracia" "NeoAshford" "NeoBasingstoke" "NeoBasildon" "NeoBracknell" "NeoHatfield" "NeoKeynes" "NeoStevenage" "NeoTamworth" "NeoTelford" "Cobol" "Fortran" "Basic" "Lisp" "Smalltalk" "Occam" "Wolfram" "Julia" "Groovy" "Dart" "Ada"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"Telos" "Black Diamond" "Silicon Mountain"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Server Room" "Crystal"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Hydrax" "Monacus" "Voga" "Silicon Plains" "Rust" "Cobra"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Beast" "Menonia" "Yst" "NeoLetchworth" "Maple" "Oberon"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"Cheyne" "Tourin" "Colano" "Magic Smoke" "Silicon Oasis"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Daffodil" "Greengard" "Sperity" "Limnos" "Root" "Elixir"
+ 			}
+		}
+
+		pc_nuked = {
+			names = {
+				"Antilla" "Chaar" "Dread" "Ghennix" "Goo" "Moriturus" "Mondaran" "Intercal"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"Pequod" "Wednesday" "Silicon Island" "Java" "Perl" "Harbour"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"Molryus" "Loam" "Cupertino" "Silicon Prairie" "Ruby"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Akalo" "Regalis" "Pheros" "Sylvaniar" "Silicon Jungle" "Python" "Lua"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Ossett" "Silicon Taiga"
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names_male = { 
+				
+			}
+			full_names_female = {
+			
+			}
+			
+			full_names = {
+				"Abstract Connoisseur" "Hypertext Assassin" "Callback Cat" "Boolean Autocrat" "Runtime Terror" "CAMA Chronicle" "Hoard Warrior" "Daemon Demon" "Thrift Torrent Talisman" "Software Chaser" "Celestial Interface" "Open Source Pundit" "Data Privateer" "Firmware Rebel" "Multiprocessing Mogul" "Identity Imbalance" "Emulation Nerds" "Hex Clan" "Code Poltergeist" "Robust Routine" "Debug Entity" "Epic Virtual Boost" "Mind Optimizer" "Sweep Collider" "Query Language Spy" "Zip Demon" "Peephole Slayer" "Elementary Power Hack" "Trigger Mindscape" "Retrieval Sage" "Sinister Rewind" "Paradox Code Synchronicity" "Java Dalia" "Static Startup" "Mindwrap Error" "Life Cycle Thug" "Karma Passion Molecule" "Sequel Extract" "Memory Inject Lama" "Pipeline Predator" "Binary Beast" "Hack Inversion" "Rational Register" "Spiral Forge" "Keygen Catastrophe" "Port Manifest" "App Monster" "Fourier Mirage" "Ghost Zen" "Third Generation Technerd" "Light Wave Empire" "Parallel Inertia" "Kylix Medusa" "Server Monks" "Adaptive Moorheads" "Bytecode Velocity" "Outsource Magnet" "Jade Magnesia" "Heterogeneous Raiders" "Script Railoth" "Cyclomatic Cylop" "Lan Blast" "Dread Goto" "Terragen Trip" "Explode Legacy" "Hyper Hydro Breed" "Kazaa Conquerors" "Bypass Space" "Oath Tentacle" "Mind Map Orbs" "Bot Interpreter" "Adobe Priest" "Turbo Dynamic" "Forbidden Linker" "Interprocedural Hybrid" "Algo Messiah" "Lava Matter" "Kernel Pony" "Algorithm Unlock" "Object Grind" "Symbolic Share Demon" "Quad Squad" "RISC Taker" "Whimsy"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+			
+			}
+			
+			regnal_second_names = {
+			
+			}
+		}
+	}
+	
+	ruler_names = {
+		default = {
+			full_names = {
+				Core
+			}
+		}
+	}
+ }
