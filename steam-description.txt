@@ -1,0 +1,33 @@
+[h1]The Civilisations from Pioneers LARP for Stellaris[/h1]
+
+These civilisations will probably not mean much unless you LARP in the UK!
+
+As a general note, the stat picks are aimed at a balance between the mechanics that make sense for the flavour of the civilisation, and those that make sense for being fun to play.  E.g. All human civs have some level of the adaptable trait, because they all share the same homeworld preference, while the Zebulon and Many each have a climate to themselves.  
+
+[h1]The Earth Empire[/h1]
+[b]Traits:[/b]Adaptable, Traditional, Decadent
+[b]Ethics:[/b] Fanatical Authoritarian, Spiritualist
+[b]Civics:[/b] Aristocratic Elite, Feudal Realm
+
+The Earth Empire is the remaining half of the Old Earth regime and fits nicely into Stellaris various mechanics.  The Humans of the Earth Empire maintain their traditions and are united behind their monarch, but the decadence and excess of the nobility continues to cause friction points across society.  
+
+Earth Empire Namelists were generously compiled by Yewhall.
+
+[h1]The Federation[/h1]
+[b]Traits:[/b]Adaptable, Thrifty, Wasteful, Quarrelsome
+[b]Ethics:[/b] Authoritarian, Fanatical Materialist
+[b]Civics:[/b] Ruthless Competition, Franchising
+
+Although the Federation is ostensibly governed by a centralised body, the majority of power and wealth is held by vast megacorporations, which fit well with the Megacorp expansion.  In keeping with their corporate society, federation humans are in general a lot more ruthless at trade and business, but their society has become far more "disposable" than the Empire and vastly more than the Co-operative.  
+
+[h1]The Cooperative[/h1]
+[b]Traits:[/b]Extremely Adaptable, Conservationist, Slow Learns, Deviants, Fleeting
+[b]Ethics:[/b] Fanatical Egalitarian, Pacifist
+[b]Civics:[/b] Beacon of Liberty, Shared Burdens
+
+Those that live free: free from oppression; free from rules; and free, sadly, from resources.  It has resulted in humans with the most disadvantages - they lack the advanced education and healthcare of the Earth Empire or Federation, resulting in reduced lifespans compared to their pears, added to the fact that the Co-op are by definition a bunch of rebels makes it hard to get them to pull in one direction.  Where they do shine through is their adaptability - putting both other human empires to shame with the rocks that they are not only prepared to live on, but thrive on. 
+
+Other descriptions coming soon.  Currently the Earth Empire has custom name lists, the others do not.  
+
+
+Pioneers can be learned about at [url=http://pioneers.chaosdeathfish.com]http://pioneers.chaosdeathfish.com[/url]
